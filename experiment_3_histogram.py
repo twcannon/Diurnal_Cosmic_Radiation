@@ -20,7 +20,7 @@ plt2 = fig.add_subplot(1,2,2)
 
 
 ### READ DATA ###
-os.chdir('/Users/Thomas/Desktop/Code/Python/School')
+os.chdir('/Users/Thomas/Desktop/Code/Python/School/Diurnal_Cosmic_Radiation')
 reader=csv.reader(open("cosmic_ray_data.csv","rU"),delimiter=',')
 x=list(reader)
 result=np.array(x)

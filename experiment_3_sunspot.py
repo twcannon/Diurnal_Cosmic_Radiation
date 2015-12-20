@@ -7,7 +7,7 @@ from scipy.stats import spearmanr
 
 
 ### READ GEIGER DATA ###
-os.chdir('/Users/Thomas/Desktop/Python')
+os.chdir('/Users/Thomas/Desktop/Code/Python/School/Diurnal_Cosmic_Radiation')
 reader=csv.reader(open("cosmic_ray_data.csv","rU"),delimiter=',')
 x=list(reader)
 result=np.array(x)
@@ -31,7 +31,7 @@ humidity = result_matrix[:,7]
                      
                                           
  ### READ SUNSPOT DATA ###
-os.chdir('/Users/Thomas/Desktop/Python')
+os.chdir('/Users/Thomas/Desktop/Code/Python/School/Diurnal_Cosmic_Radiation')
 reader=csv.reader(open("sunspot_data.csv","rU"),delimiter=',')
 x=list(reader)
 sunspot=np.array(x)
